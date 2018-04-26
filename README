@@ -1,0 +1,19 @@
+To run the program, simply run test.m and all the appropriate functions will be called to do image rectification and create the point cloud of the scene.
+
+ParseData parses the data and returns the parsed data in Mu, Mv, V, and RGB
+
+getCorrespondences gets the x1 and x2 correspondences between two images given V
+
+EstimateFundamentalMatrix finds the fundamental matrix 
+
+GetInliersRANSAC is the RANSAC function  
+
+EssentialMatrixFromFundamentalMatrix finds the fundamental matrix from the 
+essential matrix 
+
+ExtractCameraPose gets the camera pose given an Essential matrix 
+
+Linear Triangulation does linear triangulation 
+
+DisambiguateCameraPose finds the correct camera pose for camera 2
+
